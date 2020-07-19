@@ -1,0 +1,71 @@
+.ShoppingListController{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.AddBtn{
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    margin-bottom: 30px;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #dae1e7;
+    background-color: #27496d;
+    border: 1px solid #27496d;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.AddBtn:hover{
+    background-color: #2a4f75;
+    background-color: #2a4f75;
+    box-shadow: 2px 1px 4px #3e4a52;
+}
+
+.List{
+    padding-left: 10px;
+    letter-spacing: 1px;
+    border-left: 1px solid #52616b;
+}
+
+.ShoppingListController h1{
+    font: 300 44px 'Lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.7px;
+    word-spacing: 3px;
+    line-height: 2;
+    margin: 0;
+}
+
+.ShoppingSvg{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.ModalHeaderH3{
+    font: 700 24px 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.UserInput{
+    width: 300px;
+    font: 400 16px 'Lato', sans-serif;
+    padding: 6px 10px;
+    margin: 10px 0 15px 0;
+    border: 1px solid #c9d6df;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.UserInput:hover,
+.UserInput:focus{
+    border: 1px solid #590d82;
+}
+
+.UserInput:focus{
+    box-shadow: 1px 1px 3px #0c056d;
+}
