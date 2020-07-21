@@ -1,10 +1,16 @@
+button,
+button:focus,
+button:active{
+    outline: none;
+    border: none;
+}
+
 .Button{
     font: 400 16px 'Lato', sans-serif;
     letter-spacing: 0.5px;
     background-color: #fff;
     color: #0b6b3e;
     padding: 0 10px;
-    border: none;
     cursor: pointer;
 }
 

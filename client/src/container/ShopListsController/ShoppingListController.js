@@ -40,6 +40,7 @@ class ShopListController extends Component {
         let data = {name : itemName}
         this.props.onAddItem(data);
         this.setState({isShow:false})
+        this.createInputRef.current.value = ""
     }
 
     DeleteItemHandler = _id => {
