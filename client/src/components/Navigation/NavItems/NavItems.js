@@ -8,9 +8,9 @@ const NavItems = props => {
             <li>
                 <NavItem link="/" exact="true">Home</NavItem>
             </li>
-            <li>
+            {/* <li>
                 <NavItem link="/details">Detail</NavItem>
-            </li>
+            </li> */}
         </ul>
     )
 }
