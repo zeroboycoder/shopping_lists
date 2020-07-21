@@ -13,3 +13,19 @@
     box-shadow: 2px 2px 6px #00000033;
     transition: all 0.5s;
 }
+
+.CancelBtn{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    transition: all 0.3s;
+}
+
+.CancelBtn i:hover{
+    color: #DC4142;
+}
+
+.CancelBtn i{
+    font-size: 28px;
+    color: #404b69;
+}

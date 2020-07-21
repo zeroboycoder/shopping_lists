@@ -5,7 +5,7 @@ import Button from './Button/Button';
 const ShopItem = props => {
     return (
         <div className="ShopItem">
-            <Button btnClass="Button Danger">Delete</Button>
+            <Button btnClass="Button Danger" clicked={props.clicked} showed={true}>Delete</Button>
             {props.children}
         </div>
     )

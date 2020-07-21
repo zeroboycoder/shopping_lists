@@ -3,9 +3,9 @@ const { json } = require("body-parser");
 
 exports.fetchItems = (req, res, next) => {
     console.log("Fetch items")
-    ListModel.find()
+    ListModel.find().sort({_id : -1})
         .then(items => res.json(items))
-        .catch(item => { fetchItem: false })
+        .catch(item => res.json({ fetchItem: false }))
 }
 
 exports.addItems = (req, res, next) => {
@@ -14,7 +14,7 @@ exports.addItems = (req, res, next) => {
     new ListModel({
         name : name
     }).save()
-    .then(item => res.json({success : true}))
+    .then(item => res.json(item))
     .catch(err => {
         console.log(err);
         return res.json({success: false})
