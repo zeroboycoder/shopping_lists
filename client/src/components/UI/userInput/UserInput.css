@@ -1,0 +1,27 @@
+.Input {
+   width: 320px;
+}
+
+.Input .InputControl {
+   width: 100%;
+   outline: none;
+   padding: 3px 10px;
+   box-sizing: border-box;
+   color: #000;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+
+.Input .InputControl:focus {
+   border: 1px solid #c56be9;
+   box-shadow: 2px 2px 5px #ab3bb9;
+}
+
+.Input .InputDanger {
+   border: 1px solid red;
+}
+
+.Input .InputDanger:focus {
+   border: 1px solid red;
+   box-shadow: 2px 2px 4px #ee3f20;
+}

@@ -1,51 +1,51 @@
 button,
 button:focus,
-button:active{
-    outline: none;
-    border: none;
+button:active {
+   outline: none;
+   border: none;
 }
 
-.Button{
-    font: 400 16px 'Lato', sans-serif;
-    letter-spacing: 0.5px;
-    background-color: #fff;
-    color: #0b6b3e;
-    padding: 0 10px;
-    cursor: pointer;
+.Button {
+   font: 700 16px "Lato", sans-serif;
+   letter-spacing: 0.5px;
+   background-color: #fff;
+   color: #0b6b3e;
+   padding: 0 10px;
+   cursor: pointer;
 }
 
-.Button:disabled{
-    color: #52616b;
-    cursor: not-allowed;
+.Button:disabled {
+   color: #52616b;
+   cursor: not-allowed;
 }
 
-.Button:not(:disabled){
-    animation-name: btn;
-    animation-duration: 0.3s;
+.Button:not(:disabled) {
+   animation-name: btn;
+   animation-duration: 0.3s;
 }
 
 @keyframes btn {
-    0%{
-        transform: scale(1);
-    }
+   0% {
+      transform: scale(1);
+   }
 
-    50%{
-        transform: scale(1.05);
-    }
+   50% {
+      transform: scale(1.05);
+   }
 
-    100%{
-        transform: scale(1);
-    }
+   100% {
+      transform: scale(1);
+   }
 }
 
-.Button.Success{
-    color: #0b6b3e;
+.Button.Success {
+   color: #0b6b3e;
 }
 
-.Button.Danger{
-    color: #d72323;
+.Button.Danger {
+   color: #d72323;
 }
 
-.BtnBold{
-    font-weight: bold;
+.BtnBold {
+   font-weight: bold;
 }
